@@ -1,0 +1,28 @@
+<button class="btn btn-primary" data-bs-toggle="modal"
+      data-bs-target="#modalOpen">Open</button>
+      <div class="modal fade" id="modalOpen">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class=modal-header">Header
+            <button class="btn-close" data-bs-dismiss="modal"></button></div>
+            <div class="modal-body">Body</div>
+            <div class="modal-footer">Footer</div>
+          </div>
+
+        </div>
+      </div>
+
+
+
+----------------
+    <button class="btn btn-primary" data-bs-toggle="modal"data-bs-target="#modal">Show</button>
+      <div class="modal" id="modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">modal Header
+              <button class="btn-close" data-bs-dismiss="modal"></button></div>
+              <div class="modal-body">modal Body</div>
+              <div class="modal-footer">modal Footer</div>
+             </div>
+         </div>
+       </div> 
