@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<table class="table table">
+    <thead>
+        <tr>
+            <th>Department</th>
+            <th>ID Number</th>
+            <th>Status</th>
+            <th>Last Cal Date</th>
+            <th>Due Date</th>
+            <th>remark</th>
+        </tr>
+    </thead>
+
+   
+    {%for calibration in calibrations %}
+         <tr>
+            <td>{{calibration.department.department}}</td>
+            <td>{{calibration.equipment.equipment_id}}</td>
+            <td>{{calibration.equipment.status}}</td>
+            <td>{{calibration.last_cal}}</td>
+            <td>{{calibration.due_cal}}</td>
+            <td>{{calibration.remark}}</td>
+            <hr>
+        </tr>
+    {% endfor %}
+    
+
+</table>
+{% endblock content %}
